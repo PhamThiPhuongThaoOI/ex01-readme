@@ -1,11 +1,5 @@
 html{
     font-size: 62,5%;
-
-}
-body {
-gap: 0px;
-opacity: 0px;
-
 }
 .container{
     width: 1523px;
@@ -20,20 +14,20 @@ header {
     background-color: #ffd900; 
 } 
 h1{
-    width: 829px;
     height: 239px;
     font-weight: 700;  
     font-size: 200px;
     padding-left: 131px;
     margin: 0px 0px;
     text-align: left;
+    font-family: 'New York Extra Large';
 }
 .version {
     padding-left: 140px;
     padding-top: 65px;
     width: 322px;
     height: 24px;
-    font-family:SF mono;
+    font-family:'sf mono';
     font-size: 20px;
     font-weight: 400;
     line-height: 23.87px;
@@ -42,10 +36,12 @@ h1{
     margin-left: 131px;
 }
 .content--primary h2 {
-    width: 523px;
     height: 53px;
     font-size: 44px;
+    line-height: 52.51px;
     margin: 103px 0px 26px ;
+    font-weight: 700;
+    font-family: 'new york extra large';
 }
 .content--primary--first {
     height: 98px;
@@ -57,16 +53,19 @@ h1{
     height: 96px;
     margin-left: 29px ;
     box-sizing: border-box;
-    font-family: SF ProText;
-    font-weight: 500px;
+    font-family: 'sf pro display';
+    font-weight: 400;
     font-size: 20px;
+    letter-spacing: 1px;
 }
 .content--secondary h2 {
-    width: 477px;
     height: 53px;
     margin: 90px 0px 0px;
     font-size: 44px;
     line-height: 52.51px;
+    font-weight: 700;
+    font-family: 'new york extra large';
+    letter-spacing: 1px;
 }
 .content--secondary--first {
     height: 52px;
@@ -77,14 +76,18 @@ h1{
 .content--secondary p {
     width: 884px;
     height: 48px;
-    font-family: SF ProText;
+    font-family: 'sf pro display';
     font-size: 20px;
     margin: 26px 29px;
+    font-weight: 400;
+    line-height: 23.87px;
+    letter-spacing: 1px;
 }
 .content--tertiary h2 {
-    width: 535px;
     height: 53px;
     font-size: 44px;
+    font-family: 'new york extra large';
+    font-weight: 700;
     margin: 80px 0px 0px ;
     line-height: 52.51px;
 }
@@ -96,9 +99,11 @@ h1{
 .content--tertiary--first p {
     width: 791px;
     height: 72px;
-    font-family: SF ProText;
+    font-family:'sf pro display';
     font-size: 20px ;
     margin: 24px 0px 0px 29px ;
+    line-height: 23.87px;
+    letter-spacing: 1px;
 }
 .content--tertiary--first01 svg {
     width: 333.88px;
